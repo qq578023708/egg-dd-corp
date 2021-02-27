@@ -1,0 +1,11 @@
+node_modules/
+coverage/
+test/
+.idea/
+.vscode/
+run/
+typings/
+.DS_Store
+*.swp
+*.lock
+!.autod.conf.js

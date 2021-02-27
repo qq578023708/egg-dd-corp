@@ -1,0 +1,60 @@
+{
+  "name": "egg-dd-corp",
+  "version": "1.0.4",
+  "description": "基于egg.js的钉钉SDK",
+  "eggPlugin": {
+    "name": "dingtalk"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "dingTalk",
+    "ding-talk"
+  ],
+  "dependencies": {
+    "axios": "^0.19.2",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg": "^2.16.0",
+    "egg-bin": "^4.11.0",
+    "egg-ci": "^1.11.0",
+    "egg-mock": "^3.21.0",
+    "eslint": "^5.13.0",
+    "eslint-config-egg": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
+    "pkgfiles": "egg-bin pkgfiles",
+    "autod": "autod"
+  },
+  "files": [
+    "app.js",
+    "lib",
+    "config",
+    "index.d.ts"
+  ],
+  "ci": {
+    "version": "8, 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qq578023708/egg-dd-corp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qq578023708/egg-dd-corp/issues"
+  },
+  "homepage": "https://github.com/qq578023708/egg-dd-corp",
+  "author": "hongjian1122@sina.com",
+  "license": "MIT"
+}

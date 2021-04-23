@@ -1,6 +1,6 @@
 {
   "name": "egg-dd-corp",
-  "version": "1.0.7",
+  "version": "1.0.11",
   "description": "基于egg.js的钉钉SDK",
   "eggPlugin": {
     "name": "dingtalk"
